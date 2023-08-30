@@ -1,0 +1,203 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  font-size: 2.3rem;
+  width: 100vw;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container span {
+  position: relative;
+  width: 120px;
+  left: 700px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+.active {
+  background-color: gray;
+}
+
+.box {
+  outline: none;
+  border: none;
+  color: darkgreen;
+  background-color: white;
+}
+.box:focus {
+  background-color: rgb(10, 0, 100);
+  color: white;
+}
+
+.add-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 255, 0);
+}
+.search-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 255, 0.8);
+}
+.delete-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+}
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.space1 {
+  display: flex;
+  align-items: center;
+}
+.center {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.but {
+  width: 70px;
+  height: 40px;
+}
+.box {
+  outline: none;
+  height: 40px;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+body {
+  padding: 0%;
+  margin: 0;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid gray;
+  display: grid;
+  place-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  color: white;
+  font-size: 45px;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  width: 450px;
+  height: 350px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.letter {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid grey;
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+#correct {
+  background-color: green;
+}
+#almost {
+  background-color: orange;
+}
+#error {
+  background-color: gray;
+}
+.keyboard {
+  width: 700x;
+  height: 300px;
+  margin-top: 60px;
+}
+.line1 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+.line2 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+.line3 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+.key {
+  width: 50px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: lightseagreen;
+}
+#big {
+  width: 100px;
+}
+#disabled {
+  background-color: #3a393c;
+}
