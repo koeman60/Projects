@@ -1,0 +1,47 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  outline: none;
+  border: none;
+  color: darkgreen;
+  background-color: white;
+}
+.box:focus {
+  background-color: rgb(10, 0, 100);
+  color: white;
+}
+
+.add-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 255, 0);
+}
+.search-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 255, 0.8);
+}
+.delete-button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+}
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.space1 {
+  display: flex;
+  align-items: center;
+}
